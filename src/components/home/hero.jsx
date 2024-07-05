@@ -9,7 +9,7 @@ export default function Hero() {
             <p className='font-bold text-[36px] lg:text-[75px] leading-[42px] lg:leading-[86px]'>
               Rennman <br />AO Trans
             </p>
-            <p className='text-[16px] md:text-[18px] leading-[24px] md:leading-[34px] text-white'>"Delivering Excellence, Mile by Mile – Your Trusted Partner in Truck Logistics"</p>
+            <p className='text-[16px] md:text-[18px] leading-[24px] md:leading-[34px] text-white'>&quot;Delivering Excellence, Mile by Mile – Your Trusted Partner in Truck Logistics&quot;</p>
           </div>
         </div>
       </div>
