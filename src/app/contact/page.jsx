@@ -28,7 +28,7 @@ export default function Page() {
               <Image src={'/logo/mail.svg'} height={200} width={200} alt='call' className='h-[28px] w-[28px]' />
               <div className='text-[13px]'>
                 <p className='font-semibold'>EMAIL</p>
-                <p>rezanrejin@gmail.com</p>
+                <p>info@rennmantransports.com</p>
               </div>
             </div>
           </div>
