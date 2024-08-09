@@ -8,7 +8,7 @@ export default function ContactForm() {
   const sendMail = async (values, { resetForm }) => {
     try {
       setSubmitting(true)
-      const response = await fetch('https://riod-backend.onrender.com/contact-us-sconcierge', {
+      const response = await fetch('https://riod-backend.onrender.com/contact-us-rennman', {
         method: 'POST',
         headers: {
           'content-type': 'application/json'

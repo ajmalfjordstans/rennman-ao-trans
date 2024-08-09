@@ -24,7 +24,7 @@ export default function Mission() {
         <div className='text-center flex flex-col items-center gap-2'>
           <Image src={'/logo/mission/dedication.png'} height={400} width={400} alt='' className='h-[80px] w-[80px]' />
           <p className='text-[28px] font-[900]'>DEDICATION</p>
-          <p className='text-[18px] font-[400]'>TVP offers personalized services, focusing on our ability to adapt and stay updated with market demands, ensuring customer satisfaction is a top priority.</p>
+          <p className='text-[18px] font-[400]'>Rennman offers personalized services, focusing on our ability to adapt and stay updated with market demands, ensuring customer satisfaction is a top priority.</p>
         </div>
       </div>
 
