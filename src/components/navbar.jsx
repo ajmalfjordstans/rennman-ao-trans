@@ -20,7 +20,7 @@ export default function Navbar() {
               <Image src={'/logo/logo.png'} height={300} width={500} alt='logo' className='h-[40px] lg:h-[70px] w-auto' />
             </div>
           </Link>
-          <div className="hidden lg:block font-semibold text-[16px]">
+          <div className="hidden lg:block font-medium text-[16px]">
             <div className='flex gap-10 items-center'>
               <Link href={'/'} >
                 <p className='hover:text-secondary'>HOME</p>
@@ -32,7 +32,10 @@ export default function Navbar() {
                 <p className='hover:text-secondary'>ABOUT</p>
               </Link>
               <Link href={'/contact'} >
-                <p className='hover:text-secondary'>CONTACT</p>
+                <Button
+                  className='bg-[#FFFFFF] px-3 py-2 text-black rounded-[10px] flex justify-center items-center gap-2 w-[120px] h-[40px] font-semibold'
+                // onClick={() => { setShowContactForm(!showContactForm) }}
+                > <p className='hover:text-secondary'>CONTACT US</p></Button>
               </Link>
               {/* <Button
                 className='bg-[#FFCC00] px-3 py-2 text-white rounded-[10px] flex justify-center items-center gap-2 w-[120px] h-[50px] font-[800]'

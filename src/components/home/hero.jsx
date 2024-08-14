@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <section className='pt-[100px] h-[100vh] w-full relative bg-hero bg-cover bg-left '>
+    <section className='pt-[100px] h-[100vh] w-full relative bg-hero bg-cover bg-center lg:bg-left '>
       <div className='container mx-auto px-[5%] lg:px-0 h-full '>
         <div className='h-full flex items-center text-white '>
           <div className='flex flex-col max-w-[600px] gap-[24px] p-[20px] lg:p-[50px]'>
