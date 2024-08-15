@@ -4,9 +4,9 @@ import React from 'react'
 export default function WhyChooseUs() {
   return (
     <div className='bg-[#FFF5EE]'>
-      <div className='container mx-auto px-[5%] lg:px-0 py-[70px]'>
-        <p className='text-[36px] text-custom-red text-center'>WHY CHOOSE US?</p>
-        <div className='max-w-[821px] w-full mx-auto mt-[60px] flex flex-col gap-10'>
+      <div className='container mx-auto px-[5%] lg:px-0 py-[100px]'>
+        <p className='text-[48px] text-custom-red text-center font-semibold'>WHY CHOOSE US?</p>
+        <div className='max-w-[1021px] w-full mx-auto mt-[60px] flex flex-col gap-28'>
 
           <div className='flex flex-col md:flex-row gap-5 items-between'>
             <svg
@@ -36,16 +36,16 @@ export default function WhyChooseUs() {
                 ></path>
               </g>
             </svg>
-            <div className='w-full justify-center flex flex-col gap-2 max-w-[500px]'>
-              <p className='text-[24px] text-[#FF0000]'>Reliability and Timeliness:</p>
-              <p className='text-[17px] '>Depend on us for on-time deliveries and consistent service. Our meticulous planning and real-time tracking systems ensure your shipments arrive precisely as scheduled. We prioritize reliability to meet your deadlines and keep your supply chain running smoothly.</p>
+            <div className='w-full justify-center flex flex-col max-w-[630px]'>
+              <p className='text-[26px] text-[#FF0000] font-semibold'>Reliability and Timeliness</p>
+              <p className='text-[17px] mt-[10px]'>Depend on us for on-time deliveries and consistent service. Our meticulous planning and real-time tracking systems ensure your shipments arrive precisely as scheduled. We prioritize reliability to meet your deadlines and keep your supply chain running smoothly.</p>
             </div>
           </div>
 
           <div className='flex flex-col-reverse md:flex-row gap-5 items-between'>
-            <div className='w-full justify-center flex flex-col gap-2 max-w-[500px]'>
-              <p className='text-[24px] text-[#FF0000]'>State-of-the-Art Technology:</p>
-              <p className='text-[17px] '>Leverage our cutting-edge tracking systems for real-time visibility into your shipments. Our advanced technology ensures seamless logistics management and proactive issue resolution. Stay informed with up-to-date information and streamlined operations throughout your supply chain.</p>
+            <div className='w-full justify-center flex flex-col max-w-[630px]'>
+              <p className='text-[26px] text-[#FF0000] font-semibold'>State-of-the-Art Technology</p>
+              <p className='text-[17px] mt-[10px]'>Leverage our cutting-edge tracking systems for real-time visibility into your shipments. Our advanced technology ensures seamless logistics management and proactive issue resolution. Stay informed with up-to-date information and streamlined operations throughout your supply chain.</p>
             </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -104,16 +104,16 @@ export default function WhyChooseUs() {
                 ></path>
               </g>
             </svg>
-            <div className='w-full justify-center flex flex-col gap-2 max-w-[500px]'>
-              <p className='text-[24px] text-[#FF0000]'>Experienced Team:</p>
-              <p className='text-[17px] '>Benefit from our team of seasoned logistics professionals with extensive industry expertise. We are dedicated to optimizing your supply chain and ensuring smooth, efficient operations. Our experience and knowledge drive exceptional service and innovative solutions tailored to your needs.</p>
+            <div className='w-full justify-center flex flex-col max-w-[630px]'>
+              <p className='text-[26px] text-[#FF0000] font-semibold'>Experienced Team</p>
+              <p className='text-[17px] mt-[10px]'>Benefit from our team of seasoned logistics professionals with extensive industry expertise. We are dedicated to optimizing your supply chain and ensuring smooth, efficient operations. Our experience and knowledge drive exceptional service and innovative solutions tailored to your needs.</p>
             </div>
           </div>
 
           <div className='flex flex-col-reverse md:flex-row gap-5 items-between'>
-            <div className='w-full justify-center flex flex-col gap-2 max-w-[500px]'>
-              <p className='text-[24px] text-[#FF0000]'>Flexible Solutions:</p>
-              <p className='text-[17px] '>Enjoy tailored logistics solutions designed to meet your unique needs. Whether you require standard, expedited, or specialized transport, we offer flexible options to fit your requirements. Our adaptive approach ensures that we can handle any logistical challenge efficiently and effectively.</p>
+            <div className='w-full justify-center flex flex-col max-w-[630px]'>
+              <p className='text-[26px] text-[#FF0000] font-semibold'>Flexible Solutions</p>
+              <p className='text-[17px] mt-[10px]'>Enjoy tailored logistics solutions designed to meet your unique needs. Whether you require standard, expedited, or specialized transport, we offer flexible options to fit your requirements. Our adaptive approach ensures that we can handle any logistical challenge efficiently and effectively.</p>
             </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

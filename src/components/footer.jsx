@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className='bg-white'>
       <div className=' bg-[#EE2121] text-white'>
-        <div className='container mx-auto px-[5%] lg:px-0 pt-[80px] pb-[80px]'>
+        <div className='container mx-auto px-[5%] lg:px-0 pt-[80px] pb-[15px]'>
           {/* <div className='h-[1px] w-full bg-[#FFFFFF] my-[60px]'></div> */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-[16px] gap-[15px]">
             <div>

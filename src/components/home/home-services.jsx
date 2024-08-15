@@ -4,9 +4,9 @@ import React from 'react'
 export default function HomeServices() {
   return (
     <div>
-      <div className='container mx-auto px-[5%] lg:px-0 py-[70px]'>
-        <p className='text-[36px] text-custom-red text-center'>OUR SERVICES</p>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[50px] gap-10'>
+      <div className='container mx-auto px-[5%] lg:px-0 py-[70px] min-h-[100vh] flex flex-col justify-center'>
+        <p className='text-[48px] text-custom-red text-center font-semibold'>OUR SERVICES</p>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[50px] gap-10 max-w-[1023px] mx-auto'>
           {/* First card */}
           <div className='h-[439px] rounded-[10px] flex-col overflow-hidden shadow-lg'>
             <div className='h-[227px] w-full relative'>
@@ -39,9 +39,9 @@ export default function HomeServices() {
                 </svg>
               </div>
             </div>
-            <div className='px-[40px] mt-[30px] max-w-[400px] mx-auto'>
-              <p className='text-center text-[24px]'>TRANSPORT</p>
-              <p className='mt-[20px]'>Efficient and reliable transport solutions to keep your goods moving smoothly and on time.</p>
+            <div className='px-[20px] mt-[30px] max-w-[400px] mx-auto'>
+              <p className='text-center text-[24px] font-semibold'>Transport</p>
+              <p className='mt-[20px] text-center leading-loose'>Efficient and reliable transport solutions to keep your goods moving smoothly and on time.</p>
             </div>
           </div>
 
@@ -77,9 +77,9 @@ export default function HomeServices() {
                 </svg>
               </div>
             </div>
-            <div className='px-[40px] mt-[30px] max-w-[400px] mx-auto'>
-              <p className='text-center text-[24px]'>FLEET MANAGEMENT</p>
-              <p className='mt-[20px]'>Ensuring optimal vehicle maintenance, route planning, and operational efficiency.</p>
+            <div className='px-[20px] mt-[30px] max-w-[400px] mx-auto'>
+              <p className='text-center text-[24px] font-semibold'>Fleet Management</p>
+              <p className='mt-[20px] text-center leading-loose'>Ensuring optimal vehicle maintenance, route planning, and operational efficiency.</p>
             </div>
           </div>
 
@@ -115,9 +115,9 @@ export default function HomeServices() {
                 </svg>
               </div>
             </div>
-            <div className='px-[40px] mt-[30px] max-w-[400px] mx-auto'>
-              <p className='text-center text-[24px]'>Cargo Tracking and Visibility</p>
-              <p className='mt-[20px]'>Advanced tracking systems providing real-time shipment visibility for transparency.</p>
+            <div className='px-[20px] mt-[30px] max-w-[400px] mx-auto'>
+              <p className='text-center text-[24px] font-semibold'>Tracking</p>
+              <p className='mt-[20px] text-center leading-loose'>Advanced tracking systems providing real-time shipment visibility for transparency.</p>
             </div>
           </div>
 
