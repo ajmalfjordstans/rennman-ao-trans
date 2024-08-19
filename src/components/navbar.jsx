@@ -13,7 +13,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className='fixed top-0 w-full bg-custom-red bg-opacity-90 lg:h-[100px] text-white flex items-center z-10'>
+      <div className='fixed top-0 w-screen bg-custom-red bg-opacity-90 lg:h-[100px] text-white flex items-center z-10'>
         <div className='container mx-auto px-[5%] lg:px-0 flex justify-between py-[15px] items-center'>
           <Link href={'/'} >
             <div className='flex items-center md:gap-3'>

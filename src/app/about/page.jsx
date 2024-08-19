@@ -5,13 +5,13 @@ import React from 'react'
 export default function Page() {
   return (
     <>
-      <Image src={"/images/background/about.svg"} height={1400} width={1400} alt='bg' className='absolute w-screen z-[-1] mt-[100px]' />
-      <div className='pt-[260px] container mx-auto px-[5%] lg:px-0 relative min-h-[80vh] flex flex-col justify-around lg:flex-row'>
+      <Image src={"/images/background/about.svg"} height={1400} width={1400} alt='bg' className='absolute w-screen z-[-1] mt-[70px] lg:mt-[100px] object-cover' />
+      <div className='pt-[120px] md:pt-[180px] lg:pt-[260px] container mx-auto px-[5%] lg:px-0 relative min-h-[80vh] flex flex-col justify-around lg:flex-row'>
         <div>
-          <p className='font-semibold text-[64px] lg:mt-[80px]'>About Us</p>
-          <p className='text-[22px] font-[600] leading-[34px] text-opacity-60 my-[60px] max-w-[580px] text-[#000000]'>Rennman Group was founded in 2023 by a team of enterprising entrepreneurs, led by two ambitious friends Mr. Rejin Rasheed and Mahesh O.H. The Group has remained constant, The HQ (headquarters) of Rennman Group located in Slovakia.</p>
+          <p className='font-semibold text-[36px] md:text-[64px] lg:mt-[80px] text-[#EE2121]'>About Us</p>
+          <p className='text-[16px] md:text-[22px] font-[600] leading-[25px] md:leading-[34px] text-opacity-60 my-[15px] md:my-[60px] max-w-[580px] text-[#000000]'>Rennman Group was founded in 2023 by a team of enterprising entrepreneurs, led by two ambitious friends Mr. Rejin Rasheed and Mahesh O.H. The Group has remained constant, The HQ (headquarters) of Rennman Group located in Slovakia.</p>
         </div>
-        <div className='h-[300px] lg:h-[500px] w-full lg:w-[500px] bg-about bg-cover bg-center my-[30px]'></div>
+        <div className='h-[300px] lg:h-[500px] w-full lg:w-[500px] bg-about bg-cover bg-center md:my-[30px] rounded-[15px]'></div>
       </div>
       <div className='container mx-auto px-[5%] lg:px-0'>
         <div>
@@ -22,6 +22,7 @@ export default function Page() {
               height="142"
               fill="none"
               viewBox="0 0 609 142"
+              className='max-w-[300px] md:max-w-[609px]'
             >
               <path
                 fill="#F4BA1C"
@@ -29,9 +30,9 @@ export default function Page() {
                 d="M0 0h609L502.242 142H0V0z"
               ></path>
             </svg>
-            <p className='text-[64px] font-semibold leading-[74px] translate-y-[-90px] translate-x-[90px]'>Our Mission</p>
+            <p className='text-[36px] md:text-[64px] font-semibold leading-[74px] translate-y-[-100px] md:translate-y-[-90px] translate-x-[20px] md:translate-x-[90px] w-min whitespace-nowrap'>Our Mission</p>
           </div>
-          <p className="text-[26px] font-[600] text-black text-opacity-60 max-w-[960px] ml-[60px] translate-y-[-40px]">
+          <p className="text-[16px] md:text-[26px] font-[600] text-black text-opacity-60 max-w-[960px] md:ml-[60px] translate-y-[-100px] md:translate-y-[-40px]">
             Our mission is to support your business with{" "}
             <span className="text-black">dependable logistics services</span> that
             enhance your{" "}
@@ -44,13 +45,14 @@ export default function Page() {
         </div>
 
         <div>
-          <div className='flex flex-col w-full items-end my-[40px]'>
+          <div className='flex flex-col w-full items-end mb-[40px] md:my-[40px]'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="609"
               height="142"
               fill="none"
               viewBox="0 0 609 142"
+              className='max-w-[320px] md:max-w-[609px]'
             >
               <path
                 fill="#F4BA1C"
@@ -58,9 +60,9 @@ export default function Page() {
                 d="M609 0H0l106.758 142H609V0z"
               ></path>
             </svg>
-            <p className='text-[64px] font-semibold leading-[74px] translate-y-[-90px] translate-x-[-40px] text-right'>What We Offer</p>
+            <p className='text-[36px] md:text-[64px] font-semibold leading-[74px] translate-y-[-100px] md:translate-y-[-90px] translate-x-[-10px] md:translate-x-[-40px] text-right'>What We Offer</p>
           </div>
-          <p className="text-[26px] font-[600] text-black text-opacity-60 max-w-[960px] ml-[60px] translate-y-[-40px]">
+          <p className="text-[16px] md:text-[26px] font-[600] text-black text-opacity-60 max-w-[960px] md:ml-[60px] translate-y-[-100px] md:translate-y-[-40px]">
             We offer comprehensive logistics solutions, ensuring{" "}
             <span className="text-black">safe, timely,{" "}</span>
             and{" "}
@@ -73,22 +75,22 @@ export default function Page() {
 
           <div className='h-[1px] w-[80%] bg-[#D9D9D9] mx-auto mb-[40px]'></div>
 
-          <div className='grid grid-cols-2 text-[#101010] gap-[60px] mt-[15px] mb-[60px] px-[60px]'>
+          <div className='grid grid-cols-1 md:grid-cols-2 text-[#101010] gap-[30px] md:gap-[60px] mt-[15px] mb-[60px] lg:px-[60px]'>
             <div>
-              <p className='text-[26px] leading-[24px] font-[600]'>Reliable Logistics Services</p>
-              <p className='text-[18px] leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>We provide a range of logistics services tailored to handle your goods with care and precision. Our goal is to ensure efficient and secure transportation, meeting your specific requirements.</p>
+              <p className='text-[18px] md:text-[26px] leading-[34px] md:leading-[24px] font-[600]'>Reliable Logistics Services</p>
+              <p className='text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>We provide a range of logistics services tailored to handle your goods with care and precision. Our goal is to ensure efficient and secure transportation, meeting your specific requirements.</p>
             </div>
             <div>
-              <p className='text-[26px] leading-[24px] font-[600]'>Timely Deliveries</p>
-              <p className='text-[18px] leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>We prioritize punctuality by employing effective planning and tracking systems, aiming to minimize delays and keep your shipments on schedule.</p>
+              <p className='text-[18px] md:text-[26px] leading-[34px] md:leading-[24px] font-[600]'>Timely Deliveries</p>
+              <p className='text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>We prioritize punctuality by employing effective planning and tracking systems, aiming to minimize delays and keep your shipments on schedule.</p>
             </div>
             <div>
-              <p className='text-[26px] leading-[24px] font-[600]'>Customer-Centric Service</p>
-              <p className='text-[18px] leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>We are dedicated to understanding and addressing your unique needs. Our team works closely with you to offer personalized solutions and responsive support throughout the logistics process.</p>
+              <p className='text-[18px] md:text-[26px] leading-[34px] md:leading-[24px] font-[600]'>Customer-Centric Service</p>
+              <p className='text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>We are dedicated to understanding and addressing your unique needs. Our team works closely with you to offer personalized solutions and responsive support throughout the logistics process.</p>
             </div>
             <div>
-              <p className='text-[26px] leading-[24px] font-[600]'>Experienced Team </p>
-              <p className='text-[18px] leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>Our professionals bring extensive experience and expertise to every job, ensuring your cargo is handled with the utmost attention to detail and safety.</p>
+              <p className='text-[18px] md:text-[26px] leading-[34px] md:leading-[24px] font-[600]'>Experienced Team </p>
+              <p className='text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-opacity-60 font-[500] mt-[10px] max-w-[460px]'>Our professionals bring extensive experience and expertise to every job, ensuring your cargo is handled with the utmost attention to detail and safety.</p>
             </div>
           </div>
         </div>
@@ -101,6 +103,7 @@ export default function Page() {
               height="142"
               fill="none"
               viewBox="0 0 609 142"
+              className='max-w-[300px] md:max-w-[609px]'
             >
               <path
                 fill="#F4BA1C"
@@ -108,9 +111,9 @@ export default function Page() {
                 d="M0 0h609L502.242 142H0V0z"
               ></path>
             </svg>
-            <p className='text-[64px] font-semibold leading-[74px] translate-y-[-90px] translate-x-[90px]'>Our Values</p>
+            <p className='text-[36px] md:text-[64px] font-semibold leading-[74px] translate-y-[-100px] md:translate-y-[-90px] translate-x-[20px] md:translate-x-[90px] w-min whitespace-nowrap'>Our Values</p>
           </div>
-          <div className="grid grid-cols-3 px-[60px] gap-[30px] mb-[60px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:px-[60px] gap-[45px] md:gap-[30px] mb-[60px] translate-y-[-80px] md:translate-y-[0px]">
             <div>
               <div className='p-[20px]'>
                 <svg
@@ -119,6 +122,7 @@ export default function Page() {
                   height="68"
                   fill="none"
                   viewBox="0 0 56 68"
+                  className='mx-auto md:mx-0'
                 >
                   <path
                     stroke="#000"
@@ -148,6 +152,7 @@ export default function Page() {
                   height="80"
                   fill="none"
                   viewBox="0 0 80 80"
+                  className='mx-auto md:mx-0'
                 >
                   <g clipPath="url(#clip0_123_92)">
                     <path
@@ -173,6 +178,7 @@ export default function Page() {
                   height="80"
                   fill="none"
                   viewBox="0 0 80 80"
+                  className='mx-auto md:mx-0'
                 >
                   <path
                     stroke="#000"
@@ -190,8 +196,8 @@ export default function Page() {
         </div>
 
         <div className='text-center mt-[30px] mb-[100px]'>
-          <p className='text-[64px] font-semibold leading-[74px] text-[#EE2121]'>Partner with Us</p>
-          <p className='max-w-[692px] text-[18px] leading-[30px] mx-auto my-[50px]'>Choose Rennman for reliable and efficient logistics solutions. We are here to support your business with professionalism and dedication</p>
+          <p className='text-[36px] md:text-[64px] font-semibold leading-[34px] md:leading-[74px] text-[#EE2121]'>Partner with Us</p>
+          <p className='max-w-[692px] text-[15px] md:text-[18px] leading-[24px] md:leading-[30px] mx-auto mt-[20px] md:my-[50px]'>Choose Rennman for reliable and efficient logistics solutions. We are here to support your business with professionalism and dedication</p>
         </div>
       </div>
     </>
