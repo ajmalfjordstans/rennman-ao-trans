@@ -35,7 +35,7 @@ export default function Page() {
           <div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] translate-y-[-100px] md:translate-y-[0px]">
               <Image
-                src={'/images/home/services/fleet.png'}
+                src={'/images/home/services/transport-full.png'}
                 height={900}
                 width={900}
                 alt='transport'
@@ -69,7 +69,7 @@ export default function Page() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] translate-y-[-100px] md:translate-y-[0px]">
             <Image
-              src={'/images/home/services/fleet.png'}
+              src={'/images/home/services/fleet-full.png'}
               height={900}
               width={900}
               alt='transport'
@@ -81,8 +81,8 @@ export default function Page() {
           </div>
         </div>
 
-        <div>
-          <div className='mt-[40px]'>
+        <div className='pb-[70px]'>
+          <div className='my-[40px]'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="609"
@@ -101,7 +101,7 @@ export default function Page() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] translate-y-[-80px] md:translate-y-[0px]">
             <Image
-              src={'/images/home/services/fleet.png'}
+              src={'/images/home/services/fleet-full.png'}
               height={900}
               width={900}
               alt='transport'
