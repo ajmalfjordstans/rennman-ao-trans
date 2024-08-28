@@ -9,7 +9,7 @@ export default function Page() {
       <div className='pt-[120px] md:pt-[180px] lg:pt-[260px] container mx-auto px-[5%] lg:px-0 relative min-h-[80vh] flex flex-col justify-around lg:flex-row'>
         <div>
           <p className='font-semibold text-[36px] md:text-[64px] lg:mt-[80px] text-[#EE2121]'>Services</p>
-          <p className='text-[16px] md:text-[22px] font-[600] leading-[25px] md:leading-[34px] text-opacity-60 my-[15px] md:my-[60px] max-w-[580px] text-[#000000]'>At Rennman, we understand that efficient logistics are the backbone of any successful business. Our suite of services is designed to provide end-to-end solutions that streamline your supply chain, ensuring your goods are transported safely, managed efficiently, and delivered on time. With a commitment to innovation, reliability, and customer satisfaction, we offer tailored logistics services that meet the unique needs of your business. Whether you're looking for transport solutions, fleet management, or advanced cargo tracking, our team of experts is here to support your operations every step of the way.</p>
+          <p className='text-[16px] md:text-[22px] font-[600] leading-[25px] md:leading-[34px] text-opacity-60 my-[15px] md:my-[60px] max-w-[580px] text-[#000000]'>At Rennman, we understand that efficient logistics are the backbone of any successful business. Our suite of services is designed to provide end-to-end solutions that streamline your supply chain, ensuring your goods are transported safely, managed efficiently, and delivered on time. With a commitment to innovation, reliability, and customer satisfaction, we offer tailored logistics services that meet the unique needs of your business. Whether you&apos;re looking for transport solutions, fleet management, or advanced cargo tracking, our team of experts is here to support your operations every step of the way.</p>
         </div>
         <div className='h-[300px] lg:h-[500px] w-full lg:w-[500px] bg-about bg-cover bg-center md:my-[30px] rounded-[15px]'></div>
       </div>
@@ -42,7 +42,7 @@ export default function Page() {
                 className='w-full order-1 lg:order-2'
               />
               <p className="text-[16px] md:text-[26px] font-[600] text-black text-opacity-60 order-2 lg:order-1">
-                Our Transport services are designed to offer efficient and reliable solutions to ensure your goods reach their destination safely and on time. Whether you're moving small parcels or large freight, our extensive network and cutting-edge technology enable seamless logistics from start to finish. We prioritize punctuality and safety, ensuring that your shipments are handled with the utmost care.
+                Our Transport services are designed to offer efficient and reliable solutions to ensure your goods reach their destination safely and on time. Whether you&apos;re moving small parcels or large freight, our extensive network and cutting-edge technology enable seamless logistics from start to finish. We prioritize punctuality and safety, ensuring that your shipments are handled with the utmost care.
               </p>
             </div>
           </div>
