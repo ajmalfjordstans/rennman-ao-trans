@@ -79,28 +79,28 @@ export default function ContactForm() {
                 <div className='flex flex-col md:flex-row gap-2'>
                   <div className='flex flex-col md:w-[50%]'>
                     <label htmlFor="firstName">First Name*</label>
-                    <Field type="text" name="firstName" className='border-[2px] rounded-md p-[10px]' />
+                    <Field type="text" name="firstName" className='border-[1px] border-black rounded-md p-[10px]' />
                     <ErrorMessage name="firstName" component="div" className="text-[red] text-[12px]" />
                   </div>
                   <div className='flex flex-col md:w-[50%]'>
                     <label htmlFor="lastName">Last Name*</label>
-                    <Field type="text" name="lastName" className='border-[2px] rounded-md p-[10px]' />
+                    <Field type="text" name="lastName" className='border-[1px] border-black rounded-md p-[10px]' />
                     <ErrorMessage name="lastName" component="div" className="text-[red] text-[12px]" />
                   </div>
                 </div>
                 <div className='flex flex-col gap-1'>
                   <label htmlFor="email">Email Address*</label>
-                  <Field type="email" name="email" className='border-[2px] rounded-md p-[10px]' />
+                  <Field type="email" name="email" className='border-[1px] border-black rounded-md p-[10px]' />
                   <ErrorMessage name="email" component="div" className="text-[red] text-[12px]" />
                 </div>
                 <div className='flex flex-col gap-1'>
                   <label htmlFor="subject">Subject*</label>
-                  <Field type="text" name="subject" className='border-[2px] rounded-md p-[10px]' />
+                  <Field type="text" name="subject" className='border-[1px] border-black rounded-md p-[10px]' />
                   <ErrorMessage name="subject" component="div" className="text-[red] text-[12px]" />
                 </div>
                 <div className='flex flex-col gap-1'>
                   <label htmlFor="message">How can we help you?*</label>
-                  <Field as="textarea" name="message" className='border-[2px] rounded-md p-[10px]' />
+                  <Field as="textarea" name="message" className='border-[1px] border-black rounded-md p-[10px]' />
                   <ErrorMessage name="message" component="div" className="text-[red] text-[12px]" />
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function ContactForm() {
                   Submitting form...
                 </div>
                 :
-                <button type="submit" disabled={isSubmitting} className='w-full bg-custom-red text-white font-[700] p-[10px]'>SEND</button>
+                <button type="submit" disabled={isSubmitting} className='w-full bg-[#F4BA1C] bg-opacity-65 text-black font-[700] p-[10px] rounded-md'>SEND</button>
               }
             </Form>
           )}

@@ -7,16 +7,16 @@ import React from 'react'
 export default function Page() {
   return (
     <>
-      <CommonHero title={"Contact Us"} bg={'/images/background/hero.jpg'} />
-      <div className='container mx-auto bg-white rounded-[50px] translate-y-[-100px] p-[30px] md:p-[100px] shadow-xl grid md:grid-cols-2 gap-10'
-        style={{
-          background: 'linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(228, 50, 44, 1) 70%)'
-        }}
-      >
+      <Image src={"/images/background/contact.svg"} height={1400} width={1400} alt='bg' className=' w-screen z-[-1] mt-[70px] lg:mt-[100px] object-cover' />
+      <div className='container mx-auto rounded-[50px] p-[30px] lg:p-[100px] grid md:grid-cols-2 gap-10 translate-y-[-90px] md:translate-y-[-190px]'>
         <div>
-          <p className='font-bold text-[54px]'>Get in <span className='text-custom-red'>Touch</span></p>
+          <p className='font-bold text-[42px] md:text-[54px]'>Get in <span className='text-custom-red'>Touch</span></p>
           <ContactForm />
-          <div className='mt-[30px] flex gap-6'>
+        </div>
+        {/* <GoogleMap /> */}
+        <div className='pt-0 md:pt-[120px]'>
+          <p className='text-[20px]'>We&apos;re here to assist you with all your logistics needs. Whether you have questions about our services, need a quote, or require support with your shipment, our team is ready to help.</p>
+          <div className='mt-[30px] grid lg:grid-cols-2 gap-4'>
             <div className='flex gap-3 items-center'>
               <Image src={'/logo/call.svg'} height={200} width={200} alt='call' className='h-[28px] w-[28px]' />
               <div className='text-[13px]'>
@@ -33,7 +33,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <GoogleMap />
       </div>
     </>
   )
