@@ -12,9 +12,9 @@ export default function Footer() {
             <div>
               <p className='font-bold text-[18px] leading-[28px]'>Slovakia</p>
               <div className='mt-[18px] font-[400] flex flex-col gap-2'>
-                <p className=''>Rennman International S.R.O,</p>
-                <p className=''>Velka Okruzna 17,</p>
-                <p className=''>01001, Zilina,</p>
+                <p className=''>Rennman AO Trans, S.R.O,</p>
+                <p className=''>Veľká okružná 17,</p>
+                <p className=''>010 01, Žilina,</p>
                 <p className=''>Slovakia</p>
                 <p className=''>info@rennmangroup.com</p>
               </div>
@@ -58,7 +58,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <p className='text-center mt-7'>2022 All rights reserved | Rennman International S.R.O</p>
+          <p className='text-center mt-7'>2022 All rights reserved | Rennman AO Trans S.R.O</p>
         </div>
       </div>
     </div>
