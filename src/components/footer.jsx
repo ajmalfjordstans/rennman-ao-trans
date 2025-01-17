@@ -32,17 +32,22 @@ export default function Footer() {
                 <Link href={'/contact'}>
                   <p className=''>Contact</p>
                 </Link>
+                <Link href={'/doc/Prepravný-poriadok-spoločnosti-Rennam-AO-trans,s.r.o.pdf'}>
+                  <p>Regulations</p>
+                </Link>
               </div>
             </div>
-            <div>
+            {/* <div>
               <p className='font-bold text-[18px] leading-[28px]'>Terms of Use</p>
               <div className='mt-[18px] font-[400] flex flex-col gap-2'>
+                <Link href={'/doc/Prepravný-poriadok-spoločnosti-Rennam-AO-trans,s.r.o.pdf'}>
+                  <p>Regulations</p></Link>
                 <p className=''>Terms and Conditions</p>
                 <p className=''>Cookie Policy</p>
                 <p className=''>Refund Policy</p>
                 <p className=''>Cancellation Policy</p>
               </div>
-            </div>
+            </div> */}
             <div>
               {/* <p className='font-bold text-[18px] leading-[28px]'>Payment Channels</p>
               <div className='mt-[18px] font-[400] flex gap-2'>
